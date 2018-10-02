@@ -1,5 +1,7 @@
 package nl.tensai.graphics;
 
+import nl.tensai.model.*;
+
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -8,16 +10,6 @@ import java.awt.image.ImageObserver;
 import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
 
-import rbadia.voidspace.model.Asteroid;
-//import rbadia.voidspace.model.BigAsteroid;
-import rbadia.voidspace.model.BigBullet;
-//import rbadia.voidspace.model.Boss;
-import rbadia.voidspace.model.Bullet;
-import rbadia.voidspace.model.Floor;
-//import rbadia.voidspace.model.BulletBoss;
-//import rbadia.voidspace.model.BulletBoss2;
-import rbadia.voidspace.model.MegaMan;
-import rbadia.voidspace.model.Platform;
 
 /**
  * Manages and draws game graphics and images.
