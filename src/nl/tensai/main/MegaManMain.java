@@ -57,7 +57,8 @@ public class MegaManMain {
             GameStatus gameStatus = new GameStatus();
             gameStatus.setLivesLeft(3);
             LevelState level1State = new Level1State(1, frame, gameStatus, gameLogic, inputHandler, graphicsMan, soundMan);
-            LevelState levels[] = { level1State };
+            LevelState level2State = new Level2State(2, frame, gameStatus, gameLogic, inputHandler, graphicsMan, soundMan);
+            LevelState levels[] = { level1State, level2State };
 
             String outcome = "CONGRATS!! YOU WON!!";
             for (LevelState nextLevel : levels) {

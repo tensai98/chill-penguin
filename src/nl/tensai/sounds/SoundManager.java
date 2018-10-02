@@ -1,9 +1,9 @@
 package nl.tensai.sounds;
 
+import nl.tensai.main.Level1State;
+
 import java.applet.Applet;
 import java.applet.AudioClip;
-
-import rbadia.voidspace.main.Level1State;
 
 /**
  * Manages and plays the game's sounds.
